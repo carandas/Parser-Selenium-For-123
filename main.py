@@ -1,1 +1,1 @@
-#code
+print("hellow world")
