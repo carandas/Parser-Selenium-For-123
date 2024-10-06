@@ -35,6 +35,7 @@ def Login():
                     password.send_keys("123456")
                     time.sleep(10)
                     parsingFraudeScore(driver)
+                    print("end")
                 except:
                     driver.close()
                     driver.quit()
